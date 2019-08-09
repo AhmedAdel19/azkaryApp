@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightOrangePrimaryColor"
+            android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                   >
+
+                        <TextView
+                            android:id="@+id/zekr_content_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/TxtAndIcons"
+                            android:textSize="22dp"
+                            android:textStyle="bold"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="16dp"
+                            android:text="بسم الله" />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp">
+                        <TextView
+                            android:id="@+id/zekr_body_Txt_Id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/TxtAndIcons"
+                            android:layout_marginTop="5dp"
+                            android:textSize="22dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="16dp"
+                            android:text="لا اله الا الله" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightOrangePrimaryColor"
+            android:orientation="horizontal"
+            android:layout_weight="3">
+
+
+                <TextView
+                    android:id="@+id/zeker_counter_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/TxtAndIcons"
+                    android:background="@drawable/counter_background"
+                    android:text="0" />
+
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+
+                    android:textSize="20dp"
+                    android:textColor="@color/TxtAndIcons"
+                    android:background="@drawable/counter_background"
+                    android:text="عدد التكرار :" />
+
+                <Button
+                    android:id="@+id/saveZekrBtnId"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:textColor="@color/cardview_light_background"
+
+                    android:background="@color/colorAccent"
+                    android:text="حفظ" />
+        </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
